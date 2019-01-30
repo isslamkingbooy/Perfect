@@ -1898,7 +1898,7 @@ if (err) console.error(err);
     client.on('message', message => {
         let tit = message.content.split(" ").slice(1).join(" ");
         if(message.content.startsWith(prefix + "title")) {
-        if(!profile[message.author.id].tite) profile[message.author.id].tite = "Hey im using Super"
+        if(!profile[message.author.id].tite) profile[message.author.id].tite = "Hey im using M6NGN"
         if(!tit) {
             message.channel.send("**Usage: <title <something>**");
         } else {
@@ -4893,14 +4893,14 @@ client.on("guildMemberAdd", member => {
 
     })
 
-    const devs = ['489342754887827487'];
+    const devs = ['338790213658607616'];
 
 client.on('message', message => {
     let argresult = message.content.split(` `).slice(1).join(' ');
     if (message.content.startsWith(prefix + 'setStreaming')) {
-      if (!devs.includes(message.author.id)) return message.channel.send("<@429972030092476437> only this guy can do restart the bot so don't try again :wink:.");
+      if (!devs.includes(message.author.id)) return message.channel.send("<@338790213658607616> only this guy can do restart the bot so don't try again :wink:.");
       message.delete();
-      client.user.setGame(argresult, 'https://twitch.tv/DynastyShop');
+      client.user.setGame(argresult, 'https://twitch.tv/M6NGN');
 
     } else if(message.content.startsWith(prefix + 'setWatching')) {
         client.user.setActivity(argresult,{type: 'WATCHING'});
