@@ -294,11 +294,7 @@ if (!id[getvalueof.id]) id[getvalueof.id] = {textrank: 0,points: 1};
  
  
  
-                let url = getvalueof.displayAvatarURL.endsWith(".webp") ? getvalueof.displayAvatarURL.slice(5, -20) + ".png" : getvalueof.displayAvatarURL;
-                jimp.read(url, (err, ava) => {
-                    if (err) return console.log(err);
-                    ava.getBuffer(jimp.MIME_PNG, (err, buf) => {
-                        if (err) return console.log(err);
+
  
                         // N A M E  |  S H A D O W
                         ctx.font = 'bold 18px Arial';
