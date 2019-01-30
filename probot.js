@@ -1513,15 +1513,12 @@ omar.reply("`تم حذف جميع الرتب بنجاح`")
 
 
 client.on('message', message => {
-    if (message.content.startsWith("*help")) {
-     let embed = new Discord.RichEmbed()
-.setDescription(`**
+  if (message.author.bot) return;
+if (message.content.startsWith("*help")) {
 
 
 
-
- message.author.sendMessage(`
-**
+message.author.sendMessage(`
 ╭━━━╮╱╱╱╱╭━━╮╱╱╱╭╮
 ┃╭━╮┃╱╱╱╱┃╭╮┃╱╱╭╯╰╮
 ┃╰━╯┣━┳━━┫╰╯╰┳━┻╮╭╯
