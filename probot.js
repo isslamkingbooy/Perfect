@@ -1575,7 +1575,15 @@ message.author.sendMessage(`
 
 *setwelcomer لتحديد روم الويلكم
 
+*toggleWelcome لتفعيل الويلكم 
+
+*toggleInvitedby لتفعيل تم دعوته من قبل
+
+*setLeave لتحديد كلام خروج الشخص من السيرفر
+
 *autorole لتشغيل الاوتو رول وتحديد الرتبه
+
+*antispread on لتفعيل عدم النشر 
 
 *kick طرد عضو من السيرفر
 
