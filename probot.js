@@ -338,7 +338,7 @@ ava.src = buf;
                         
 message.channel.sendFile(canvas.toBuffer());
 
-});
+	
 });
 }
 });
