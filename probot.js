@@ -1515,7 +1515,6 @@ omar.reply("`تم حذف جميع الرتب بنجاح`")
 client.on('message', message => {
     if (message.author.bot) return;
      if (message.content === prefix + "help") {
-      if(!message.member.hasPermission('ADMINISTRATOR')) return      message.channel.send('**للأسف لا تمتلك صلاحية** `ADMINISTRATOR`' );
      message.channel.send('**تم ارسال رسالة في الخاص**');
 
 
@@ -1530,7 +1529,9 @@ client.on('message', message => {
 ┃┃╱╱┃┃┃╰╯┃╰━╯┃╰╯┃╰╮
 ╰╯╱╱╰╯╰━━┻━━━┻━━┻━╯
 
-[❖═════ لتشغيل اللوق Log يجب وجود روم باسم ═══════❖]
+[❖═════ لتشغيل اللوق log يجب وجود روم باسم ═══════❖]
+
+[❖═════ لتشغيل الأنذارات warns  يجب وجود روم باسم ═══════❖]
 
 [❖═════════════════════════════❖]
         لماذا بروبوت ؟
@@ -1646,6 +1647,7 @@ client.on('message', message => {
 
   }
 });
+
 client.on('message',  async  message  =>  {
   let  user  =  message.mentions.users.first();
   let  reason  =  message.content.split(' ').slice(2).join(' ');
