@@ -7,7 +7,6 @@ const Canvas = require("canvas");
 const jimp = require("jimp");
 const prefix = "*"
 let id = JSON.parse(fs.readFileSync("./id/rank.json", "utf8"));
-const fs = require ("fs")
 let data = JSON.parse(fs.readFileSync("./data.json", "UTF8"));
 let alpha = JSON.parse(fs.readFileSync("./alpha.json", "UTF8"));
 
