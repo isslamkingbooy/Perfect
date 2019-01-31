@@ -250,7 +250,7 @@ if (err) console.error(err);
     client.on("message", message => {
   if (message.author.bot) return;
     if(!message.channel.guild) return;
-if (message.content.startsWith(prefix + "rank")) {
+if (message.content.startsWith(prefix + "qsdqsdsqdqsdsqmfkvkdflmv")) {
                                let user = message.mentions.users.first();
          var human = message.mentions.users.first();
             var author;
@@ -1560,16 +1560,6 @@ client.on('message', message => {
 
 *image يعرض لك صورة السيرفر
 
-*credit يوريك كم الكريديت حقتك
-
-*daily يسوي لك سحب فلوس
-
-*rep يعطي ريب
-
-*rank يطلع لك نقاطك
-
-*profile معلومات عامة مع الصورة
-
 أوامر ادارة السيرفرات :space_invader: 
 
 *ban حضر عضو من السيرفر
@@ -1688,14 +1678,14 @@ client.on('message', async message => {
      category : 'click here',
       channel : 'click here'
        }
-        if(message.content.startsWith('#temp on')){
+        if(message.content.startsWith('#qsdsqdqsdqsmld')){
          if(!message.member.hasPermission(`MANAGE_GUILD`)) return;
           var ggg= message.guild.createChannel('click here', 'category').then(cg => {
            var ccc =message.guild.createChannel('click here', 'voice').then(ch => {
             ch.setParent(cg)
              message.channel.send('**Done ,**')
               client.on('message' , message => {
-               if(message.content === '#temp off') {
+               if(message.content === '#tlgfbkmgbkmlfbkmlf') {
                 if(!message.member.hasPermission(`MANAGE_GUILD`)) return;
                  cg.delete()
                   ch.delete()
@@ -1704,7 +1694,7 @@ client.on('message', async message => {
                      });
                       const time = temp[message.guild.id].time
                        client.on('message' , message => {
-                        if (message.content.startsWith(prefix + "temptime")) {
+                        if (message.content.startsWith(prefix + "lze^pl^zelf^pezf^pfez")) {
                          if(!message.member.hasPermission(`MANAGE_GUILD`)) return;
                           let newTime= message.content.split(' ').slice(1).join(" ")
                           if(!newTime) return message.reply(`**${prefix}temptime <time>  \`1000 = 1s\`**`)
@@ -1810,7 +1800,7 @@ if (err) console.error(err);
  
 client.on('message', message => {
  
-    if(message.content.startsWith(prefix + 'rep')) {
+    if(message.content.startsWith(prefix + '^tyoôô^^hgjo^pgh^joghpj^pgh')) {
       if(!message.channel.guild) return;
                     moment.locale('en');
                   var getvalueof = message.mentions.users.first()
@@ -1835,7 +1825,7 @@ client.on("message", (message) => {
   if (message.author.bot) return;
     if (message.author.id === client.user.id) return;
     if(!message.channel.guild) return;
-if (message.content.startsWith(prefix + 'credit')) {
+if (message.content.startsWith(prefix + 'sdfdssdùmgblmbùgf')) {
   if(men) {
     if (!profile[men.id]) profile[men.id] = {
     lastDaily:'Not Collected',
@@ -1849,7 +1839,7 @@ message.channel.send(`** ${men.username}, :credit_card: balance` + " is `" + `${
 }
 }
  
-if(message.content.startsWith(prefix + "daily")) {
+if(message.content.startsWith(prefix + "q:smlmùldvdfmvkdf")) {
   if(profile[message.author.id].lastDaily != moment().format('day')) {
     profile[message.author.id].lastDaily = moment().format('day')
     profile[message.author.id].credits += 200
@@ -1863,7 +1853,7 @@ if(message.content.startsWith(prefix + "daily")) {
  let cont = message.content.slice(prefix.length).split(" ");
 let args = cont.slice(1);
 let sender = message.author
-if(message.content.startsWith(prefix + 'credit')) {
+if(message.content.startsWith(prefix + 'qslfdp^fêôf^refdfvùmdf')) {
           if (!args[0]) {
             message.channel.send(`**Usage: ${prefix}trans @someone amount**`);
          return;
