@@ -7,7 +7,8 @@ const Canvas = require("canvas");
 const jimp = require("jimp");
 const prefix = "*"
 const id = JSON.parse(fs.readFileSync("./id/rank.json", "utf8"));
-let data = JSON.parse(fs.readFileSync("./data.json", "UTF8"));
+const fs = require ("fs")
+const data = JSON.parse(fs.readFileSync("./data.json", "UTF8"));
 
 let banse = new Set();
 client.on('guildBanAdd', function(guild) {
